@@ -1,0 +1,43 @@
+
+ó
+http_bookstore.protoendpoints.examples.bookstoregoogle/api/annotations.protogoogle/protobuf/empty.proto"-
+Shelf
+id (Rid
+theme (	Rtheme"D
+Book
+id (Rid
+author (	Rauthor
+title (	Rtitle"T
+ListShelvesResponse=
+shelves (2#.endpoints.examples.bookstore.ShelfRshelves"O
+CreateShelfRequest9
+shelf (2#.endpoints.examples.bookstore.ShelfRshelf"'
+GetShelfRequest
+shelf (Rshelf"*
+DeleteShelfRequest
+shelf (Rshelf"(
+ListBooksRequest
+shelf (Rshelf"M
+ListBooksResponse8
+books (2".endpoints.examples.bookstore.BookRbooks"a
+CreateBookRequest
+shelf (Rshelf6
+book (2".endpoints.examples.bookstore.BookRbook":
+GetBookRequest
+shelf (Rshelf
+book (Rbook"=
+DeleteBookRequest
+shelf (Rshelf
+book (Rbook2ò
+	Bookstorem
+ListShelves.google.protobuf.Empty1.endpoints.examples.bookstore.ListShelvesResponse"Ç”‰ì/v1/shelvesÄ
+CreateShelf0.endpoints.examples.bookstore.CreateShelfRequest#.endpoints.examples.bookstore.Shelf"Ç”‰ì"/v1/shelves:shelf{
+GetShelf-.endpoints.examples.bookstore.GetShelfRequest#.endpoints.examples.bookstore.Shelf"Ç”‰ì/v1/shelves/{shelf}t
+DeleteShelf0.endpoints.examples.bookstore.DeleteShelfRequest.google.protobuf.Empty"Ç”‰ì*/v1/shelves/{shelf}è
+	ListBooks..endpoints.examples.bookstore.ListBooksRequest/.endpoints.examples.bookstore.ListBooksResponse"!Ç”‰ì/v1/shelves/{shelf}/booksä
+
+CreateBook/.endpoints.examples.bookstore.CreateBookRequest".endpoints.examples.bookstore.Book"'Ç”‰ì!"/v1/shelves/{shelf}/books:bookÖ
+GetBook,.endpoints.examples.bookstore.GetBookRequest".endpoints.examples.bookstore.Book"(Ç”‰ì" /v1/shelves/{shelf}/books/{book}
+
+DeleteBook/.endpoints.examples.bookstore.DeleteBookRequest.google.protobuf.Empty"(Ç”‰ì"* /v1/shelves/{shelf}/books/{book}B;
+'com.google.endpoints.examples.bookstoreBBookstoreProtoPbproto3
